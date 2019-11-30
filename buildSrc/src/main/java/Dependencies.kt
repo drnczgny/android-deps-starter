@@ -15,6 +15,7 @@ object Versions {
     const val androidXFragment      = "1.1.0-alpha06"
     const val constraintLayout      = "2.0.0-alpha3"
     const val androidCoreKtxVersion = "1.0.1"
+    const val navigationVersion     = "2.1.0"
     const val koin                  = "2.0.1"
     const val koinArchitecture      = "1.0.0"
     const val archComp              = "1.1.1"
@@ -90,6 +91,11 @@ object Dependencies {
         const val stdlibJre7                   = "org.jetbrains.kotlin:kotlin-stdlib-jre7:${Versions.stdLibJre7Version}"
         const val stdlib                       = "org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlinVersion}"
         const val coroutines                   = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
+    }
+
+    object Navigation {
+        const val navigationFragment            = "androidx.navigation:navigation-fragment-ktx:${Versions.navigationVersion}"
+        const val navigationUi                  = "androidx.navigation:navigation-ui-ktx:${Versions.navigationVersion}"
     }
 
     object Koin {
