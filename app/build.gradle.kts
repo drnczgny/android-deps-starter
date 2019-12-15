@@ -109,6 +109,12 @@ dependencies {
     implementation(Dependencies.Square.jakewhartonRetrofitRxAdapter)
     implementation(Dependencies.Square.stethoOkhttp)
 
+    // Moshi and okio
+    implementation(Dependencies.Square.Moshi.moshi)
+    kapt(Dependencies.Square.Moshi.moshiCodegen)
+    implementation(Dependencies.Square.Moshi.retrofitMoshiConverter)
+    implementation(Dependencies.Square.Okio.okio)
+
     // other 3rd party
     implementation(Dependencies.Facebook.networkInterceptor)
     implementation(Dependencies.Facebook.stetho)

@@ -31,6 +31,9 @@ object Versions {
     const val retrofitRxAdapter     = "1.0.0"
     const val okhttp                = "4.1.0"
     const val okhttpDownloader      = "1.1.0"
+    const val moshi                 = "1.9.2"
+    const val retrofitMoshiConverter= "2.7.0"
+    const val okio                  = "2.4.2"
     const val picasso               = "2.5.2"
     const val stdLibJre7Version     = "1.2.71"
     const val rxJava                = "2.1.0"
@@ -139,6 +142,16 @@ object Dependencies {
         const val squareupRetrofitRxAdapter       = "com.squareup.retrofit2:adapter-rxjava2:${Versions.rxJava2RetrofitAdapter}"
         const val jakewhartonRetrofitRxAdapter    = "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:${Versions.retrofitRxAdapter}"
         const val stethoOkhttp                    = "com.facebook.stetho:stetho-okhttp3:${Versions.stetho}"
+
+        object Moshi {
+            const val moshi                             = "com.squareup.moshi:moshi-kotlin:${Versions.moshi}"
+            const val moshiCodegen                      = "com.squareup.moshi:moshi-kotlin-codegen:${Versions.moshi}"    // kapt
+            const val retrofitMoshiConverter            = "com.squareup.retrofit2:converter-moshi:${Versions.retrofitMoshiConverter}"
+        }
+
+        object Okio {
+            const val okio                              = "com.squareup.okio:okio:${Versions.okio}"
+        }
     }
 
     object Facebook {
