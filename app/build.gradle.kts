@@ -54,6 +54,7 @@ dependencies {
     implementation(Dependencies.Support.recyclerView)
     implementation(Dependencies.Support.cardView)
     implementation(Dependencies.Support.constraintLayout)
+    implementation(Dependencies.Support.motionLayout)
     implementation(Dependencies.Support.legacySupport)
     implementation(Dependencies.Support.material)
     implementation(Dependencies.Support.appCompat)
